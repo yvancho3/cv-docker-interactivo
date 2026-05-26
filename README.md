@@ -13,7 +13,7 @@ Este proyecto contiene un currículum vitae interactivo de 50 páginas, desplega
 2. Abre una terminal (Git Bash o PowerShell) en la raíz del proyecto.
 3. Ejecuta el siguiente comando para construir y levantar el contenedor:
 
-\`\`\`bash
+\`\`\`
 docker-compose down --remove-orphans; docker-compose up --build -d
 \`\`\`
 
