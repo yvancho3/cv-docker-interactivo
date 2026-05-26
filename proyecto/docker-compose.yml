@@ -1,0 +1,9 @@
+services:
+  cv-imagenes:
+    build: .
+    container_name: cv_imagenes_contenedor
+    ports:
+      - "8080:80"  # Tu app estará disponible en http://localhost:8080
+    volumes:
+      - .:/usr/share/nginx/html # Sincroniza tus imágenes y código local en vivo
+    restart: always
